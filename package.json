@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss build ./src/tailwind.css -o ./public/css/styles.css",
-    "watch": "tailwindcss build ./src/tailwind.css -o ./public/css/styles.css",
-    "prod": "NODE_ENV=production npx tailwindcss build ./src/tailwind.css -o ./public/css/styles.css"
+    "watch": "tailwindcss build ./src/tailwind.css -o ./public/css/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +16,7 @@
     "tailwindcss": "^2.1.4"
   },
   "dependencies": {
+    "swiper": "^6.7.0",
     "win-node-env": "^0.4.0"
   }
 }
