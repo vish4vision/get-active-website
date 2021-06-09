@@ -21,12 +21,43 @@
     line-height: 3.5rem;
 }
 :root {
-    --swiper-theme-color: transparent;
+    --swiper-theme-color: white;
 }
-.swiper-container-horizontal>.swiper-scrollbar{
+/* .swiper-container-horizontal>.swiper-scrollbar{
     display:none !important;
-}
-
+} */
+.fa {
+    padding: 10px;
+    font-size: 18px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 6px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      color: #AF1B67;
+  }
+  
+   .fa-twitter {
+    background: white;
+    color: #003660;
+  }
+   
+  .fa-linkedin {
+    background: white;
+    color: #003660;
+  }
+  
+  .fa-youtube-play {
+    background: white;
+    color: #003660;
+  }
+  .fa-facebook {
+    background: white;
+    color: #003660;
+  }
 @media only screen and (max-width: 640px) {
     .caption {
         position: absolute;

@@ -10,6 +10,7 @@ module.exports = {
         primary: '#003660',
         primaryHover: '#007BDB',
         secondary: '#AF1B67',
+        secondaryHover: '#AF1B67',
         blueHover: '#0070A8',
         grayPrimary: '#F2F5F7',
         spacing: {
